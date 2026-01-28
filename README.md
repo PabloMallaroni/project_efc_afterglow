@@ -59,15 +59,8 @@ project_efc_afterglow/
 
 The `scripts/pFBT/` folder contains self-contained demonstration scripts.
 
-Minimal checks:
-1. Open MATLAB and set the working directory to `scripts/pFBT/`.
-2. Run:
-   - `VisualiseParameters.m` to reproduce the key behavioural parameter extraction and mixed-effects inference using `Parameter Estimates.mat`
-   - `TaskAccuracy.m` to reproduce the task-accuracy computation on the included `synthetic_data/`
-
 Full model fitting:
 - The subfolder `scripts/pFBT/model_fitting/` contains the functions used to fit the nested model family described in the manuscript.
-- See `scripts/pFBT/model_fitting/README` for a brief description of the fitting entry points.
 
 ### 2) Effective connectivity (spectral DCM)
 
